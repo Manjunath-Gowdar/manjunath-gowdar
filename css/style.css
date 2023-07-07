@@ -14,6 +14,11 @@
   height: 4.2rem;
 }
 
+.india-logo {
+  height: 3.2rem;
+  display: flex;
+}
+
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -32,7 +37,7 @@
   font-size: 1.8rem;
   transition: all 0.3s;
 }
-
+/* --------------------------------------------- */
 /* HERO SECTION  */
 
 .section-hero {
@@ -42,6 +47,7 @@
 
 .hero-img {
   width: 100%;
+  margin-bottom: 3.6rem;
 }
 
 .hero {
@@ -56,20 +62,52 @@
 .main-text {
   color: white;
   position: absolute;
-  top:25rem;
+  top: 25rem;
   display: grid;
   grid-template-columns: 10fr 80fr 10fr;
 }
 
-.center-text{
+.center-text {
   display: flex;
   flex-direction: column;
 }
 
-.big-text{
+.big-text {
   font-size: 8rem;
   font-weight: 700rem;
-  width: 75rem;
+  /* color: red; */
+  width: 75%;
   line-height: 8.4rem;
-  
+  margin-bottom: 1.6rem;
 }
+
+.small-text {
+  color: #ffffff;
+  font-size: 1.6rem;
+  width: 65%;
+  margin-bottom: 1.6rem;
+}
+
+.read-more {
+  width: 15%;
+  height: 5rem;
+  border-radius: 4.4rem;
+  background-color: #6090d8;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #ffffff;
+  cursor: pointer;
+  outline: inherit;
+  border: none;
+}
+/* ----------------------------------------------------- */
+
+/* Trusted By */
+
+.image-trusted-by {
+  width: 60%;
+  margin: 0 30rem 0 30rem;
+}
+
+/* ----------------------------------------------------------- */
+/* About  */
