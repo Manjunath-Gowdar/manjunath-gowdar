@@ -1,0 +1,75 @@
+/* header & navigation  */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 90%;
+  margin-left: 4.8rem;
+  margin-right: 4.8rem;
+  padding-top: 1.6rem;
+}
+
+.logo {
+  height: 4.2rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  text-decoration: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited,
+.bar {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+/* HERO SECTION  */
+
+.section-hero {
+  background-image: url(//img/hero.png);
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero {
+  margin: 0 auto;
+  padding: 0 0;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center; */
+}
+
+.main-text {
+  color: white;
+  position: absolute;
+  top:25rem;
+  display: grid;
+  grid-template-columns: 10fr 80fr 10fr;
+}
+
+.center-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.big-text{
+  font-size: 8rem;
+  font-weight: 700rem;
+  width: 75rem;
+  line-height: 8.4rem;
+  
+}
