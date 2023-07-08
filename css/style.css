@@ -105,9 +105,57 @@
 /* Trusted By */
 
 .image-trusted-by {
-  width: 60%;
-  margin: 0 30rem 0 30rem;
+  width: 100%;
+  /* height:auto; */
+  padding: 0 32rem;
+  margin-bottom: 2.8rem;
 }
 
 /* ----------------------------------------------------------- */
 /* About  */
+.section-about {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  background-color: #d1e8e6;
+  width: 100%;
+  
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+}
+.about-text-container {
+  padding: 20rem 10rem;
+}
+
+.about-text {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 1.6rem;
+}
+
+.about-paragraph {
+  font-family: Roboto;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.9rem;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 0.8rem;
+  color: #8e8b8b;
+}
+.about-read-more {
+  width: 40%;
+  height: 5rem;
+  border-radius: 4.4rem;
+  background-color: #6090d8;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #ffffff;
+  cursor: pointer;
+  outline: inherit;
+  text-align: center;
+  border: none;
+}

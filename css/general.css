@@ -20,7 +20,6 @@ Medium: 500
   box-sizing: border-box;
 }
 
-
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -39,4 +38,15 @@ body {
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
+}
+
+.subheading {
+  display: block;
+  letter-spacing: 0.75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  color: #8e8b8b;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
 }
